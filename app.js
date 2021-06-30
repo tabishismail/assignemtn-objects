@@ -28,3 +28,17 @@
 //     console.log(totalAmount)
 // }
 // document.write("The total Amount of all items is "+ totalAmount);
+
+// Assignment # 2
+
+var bioData = {
+    name: "Tabish Ismail",
+    email: "tabish@gmail.com",
+    password: "12345",
+    age: "30",
+    gender: "Male",
+    city: "Karachi",
+    country: "Pakistan",
+}
+
+console.log("age" in bioData,"country" in bioData,"firstName" in bioData,"lastName" in bioData);
